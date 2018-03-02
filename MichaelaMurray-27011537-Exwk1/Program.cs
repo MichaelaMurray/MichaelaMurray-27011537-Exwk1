@@ -42,6 +42,26 @@ namespace MichaelaMurray_27011537_Exwk1
                 Console.WriteLine(ans);
             }
 
+            Console.WriteLine();
+            double rad = (7.5);
+            double peri = 2 * 3.14 * rad;
+            double area = 3.14 * rad * rad;
+            Console.WriteLine(peri);
+            Console.WriteLine(area);
+
+            Console.WriteLine();
+            Console.WriteLine("Please Input Number:");
+            int num = (int.Parse(Console.ReadLine()));
+
+            if (num > 0)
+            {
+                Console.WriteLine("The Number is Positive");
+
+            }
+            else
+            {
+                Console.WriteLine("The Number is Negative");
+            }
 
             Console.ReadKey();
         }
